@@ -46,7 +46,7 @@ namespace BotWithFlow.Dialogs
                 case "AddGroup":
 
                     // Initialize CreateGroupParams with any entities we may have found in the response.
-                    var groupParams = new Flow.Client.API.Models.CreateGroupParams();
+                    var groupParams = new CreateGroupParams();
 
                     // Run the BookingDialog giving it whatever details we have from the LUIS call, it will fill out the remainder.
                     return await stepContext.BeginDialogAsync(nameof(AddGroupDialog), groupParams,
