@@ -11,9 +11,7 @@ namespace Flow.Client.API.Models
 
         [JsonProperty("teamDescription")] public string teamDescription { get; set; }
 
-        [JsonProperty("teamOwnerodata.bind")]
-        public string teamOwnersoDatabind { get; set; } =
-            "https://graph.microsoft.com/v1.0/users/3ba7e167-7c09-484a-846d-b913084f1b56";
+        [JsonProperty("teamOwnerodata.bind")] public string teamOwnersoDatabind { get; set; }
 
         [JsonProperty("channelsDisplayName")] public string channelsDisplayName { get; set; }
 

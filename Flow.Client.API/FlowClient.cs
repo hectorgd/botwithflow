@@ -20,5 +20,17 @@ namespace Flow.Client.API
             var response = client.Execute<CreateGroupResponse>(request);
             return response.Data;
         }
+
+        public GetUsersResponse GetUsers()
+        {
+            var client = new RestClient(
+                "https://prod-85.westeurope.logic.azure.com:443/workflows/a9e656eaea0140209e3a13a111af6b98/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=WGe1lSoIXb2xMOTHVTJy5SsFH6Fd0A2Vckug4a6Eh1g");
+            var request = new RestRequest(Method.GET);
+            request.AddHeader("Host", "prod-35.westeurope.logic.azure.com:443");
+
+            var response = client.Execute(request);
+
+            return JsonConvert.DeserializeObject<GetUsersResponse>(response.Content);
+        }
     }
 }

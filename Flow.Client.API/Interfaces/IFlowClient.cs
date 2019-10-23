@@ -5,5 +5,7 @@ namespace Flow.Client.API.Interfaces
     public interface IFlowClient
     {
         CreateGroupResponse CreateGroup(CreateGroupParams createGroupParams);
+
+        GetUsersResponse GetUsers();
     }
 }

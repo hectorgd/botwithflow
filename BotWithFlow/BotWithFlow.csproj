@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Luis\LuisWithFlow-v1.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.Bot.Builder.AI.Luis" Version="4.5.3" />
     <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.5.3" />
@@ -18,7 +22,7 @@
     <ProjectReference Include="..\Flow.Client.API\Flow.Client.API.csproj" />
   </ItemGroup>
 
-    <ItemGroup>
+  <ItemGroup>
     <Content Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
