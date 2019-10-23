@@ -1,8 +1,0 @@
-C:\Users\Hector\source\repos\Flow.Client.API\bin\Debug\netstandard2.0\Flow.Client.API.deps.json
-C:\Users\Hector\source\repos\Flow.Client.API\bin\Debug\netstandard2.0\Flow.Client.API.dll
-C:\Users\Hector\source\repos\Flow.Client.API\obj\Debug\netstandard2.0\Flow.Client.API.AssemblyInfoInputs.cache
-C:\Users\Hector\source\repos\Flow.Client.API\obj\Debug\netstandard2.0\Flow.Client.API.AssemblyInfo.cs
-C:\Users\Hector\source\repos\Flow.Client.API\bin\Debug\netstandard2.0\Flow.Client.API.pdb
-C:\Users\Hector\source\repos\Flow.Client.API\obj\Debug\netstandard2.0\Flow.Client.API.dll
-C:\Users\Hector\source\repos\Flow.Client.API\obj\Debug\netstandard2.0\Flow.Client.API.pdb
-C:\Users\Hector\source\repos\Flow.Client.API\obj\Debug\netstandard2.0\Flow.Client.API.csprojAssemblyReference.cache
