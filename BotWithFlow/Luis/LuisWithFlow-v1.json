@@ -1,0 +1,151 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "TeamsWithFlow",
+  "desc": "",
+  "culture": "es-es",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "AddGroup"
+    },
+    {
+      "name": "Greetings"
+    },
+    {
+      "name": "GreetingsPerson"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "TellMeMyGroups"
+    }
+  ],
+  "entities": [
+    {
+      "name": "GroupName",
+      "roles": []
+    },
+    {
+      "name": "Persons",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "crea un grupo con el nombre de it",
+      "intent": "AddGroup",
+      "entities": [
+        {
+          "entity": "GroupName",
+          "startPos": 31,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "cuales son mis grupos?",
+      "intent": "TellMeMyGroups",
+      "entities": []
+    },
+    {
+      "text": "en que grupos estoy?",
+      "intent": "TellMeMyGroups",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hola flowy",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "holaaa",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "me puedes decir mis grupos?",
+      "intent": "TellMeMyGroups",
+      "entities": []
+    },
+    {
+      "text": "puedes crear un grupo con el nombre friends",
+      "intent": "AddGroup",
+      "entities": [
+        {
+          "entity": "GroupName",
+          "startPos": 36,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "puedes crear un grupo?",
+      "intent": "AddGroup",
+      "entities": []
+    },
+    {
+      "text": "quiero crear un grupo",
+      "intent": "AddGroup",
+      "entities": []
+    },
+    {
+      "text": "saluda a intelequia",
+      "intent": "GreetingsPerson",
+      "entities": [
+        {
+          "entity": "Persons",
+          "startPos": 9,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "saluda a la gente del webinar",
+      "intent": "GreetingsPerson",
+      "entities": [
+        {
+          "entity": "Persons",
+          "startPos": 12,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "saluda a vanesa",
+      "intent": "GreetingsPerson",
+      "entities": [
+        {
+          "entity": "Persons",
+          "startPos": 9,
+          "endPos": 14
+        }
+      ]
+    }
+  ],
+  "settings": []
+}
