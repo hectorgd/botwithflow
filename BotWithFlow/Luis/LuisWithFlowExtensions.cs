@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using Luis;
 
 namespace BotWithFlow.Luis
@@ -17,6 +18,7 @@ namespace BotWithFlow.Luis
             var found = false;
             personName = luisResult.Entities?.Persons?.FirstOrDefault();
             return !string.IsNullOrEmpty(personName);
+
         }
     }
 }

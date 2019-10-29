@@ -51,12 +51,12 @@ namespace BotWithFlow
             services.AddSingleton<ConversationState>();
 
             //Register Flow API
-            services.AddSingleton<IFlowClient>(new FlowClient());
-
+            services.AddSingleton<IFlowClient, FlowClient>();
 
             // Register dialogs
             services.AddTransient<MainDialog>();
             services.AddTransient<AddGroupDialog>();
+
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
             services.AddTransient<IBot, TeamsBot<MainDialog>>();
         }
