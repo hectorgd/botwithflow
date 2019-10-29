@@ -19,12 +19,12 @@ a "Manage y generaremos una "MicrosoftAppPassword"
 ![](https://github.com/hectorgd/botwithflow/blob/master/BotWithFlow/images/apppassword.PNG)
 
 Ya tenemos el MicrosoftAppId y el AppPassword , ¿Y ahora que? Pues vamos a crear a LUIS para obtener sus settings 
-En [](https://github.com/hectorgd/botwithflow/blob/master/BotWithFlow/Luis/LuisWithFlow-v1.json) os dejo el modelo de LUIS para que 
+En [https://github.com/hectorgd/botwithflow/blob/master/BotWithFlow/Luis/LuisWithFlow-v1.json](https://github.com/hectorgd/botwithflow/blob/master/BotWithFlow/Luis/LuisWithFlow-v1.json) os dejo el modelo de LUIS para que 
 solo tengan que importarlo una vez tengamos creado nuestra aplicacion de LUIS
 
 ## Crear L.U.I.S.
 
-Para crear nuestra app de LUIS vamos a [](https://eu.luis.ai/home) y crear aplicación.
+Para crear nuestra app de LUIS vamos a [https://eu.luis.ai/home](https://eu.luis.ai/home) y crear aplicación.
 
 Una vez la tengamos creada vamos a Administrar en el menu y en Versiones le damos a importar y seleccionaremos el json que compartí anteriormente
 ![](https://github.com/hectorgd/botwithflow/blob/master/BotWithFlow/images/importLUIS.png)
