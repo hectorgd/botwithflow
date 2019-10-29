@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace Flow.Client.API.Models
 {
@@ -12,6 +13,8 @@ namespace Flow.Client.API.Models
         [JsonProperty("teamDescription")] public string teamDescription { get; set; }
 
         [JsonProperty("teamOwnerodata.bind")] public string teamOwnersoDatabind { get; set; }
+
+        [JsonProperty("membersodata.bind")] public List<string> membersodatabind { get; set; }
 
         [JsonProperty("channelsDisplayName")] public string channelsDisplayName { get; set; }
 
