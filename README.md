@@ -1,6 +1,6 @@
 # botwithflow
 
-Welcome!  
+Welcome!   
 Este chatbot esta hecho con Bot Framework SDK 4.5.3 y utiliza Microsoft Flow para gestionar grupos de Office 365. Con este chatbot veremos
 tecnologias como L.U.I.S. (Language Understanding Intelligent Service) y como crear el Bot Channel Registration para conectarlo con Teams
 
